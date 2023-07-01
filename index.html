@@ -1,16 +1,262 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>PISUT.NET</title>
-</head>
-<body>
+<html lang="th">
 
-<h2>Training</h2>
-<ul>
-    <li><a href="https://pisut-net.notion.site/Photopea-e99e55bed6644cf9b188856dafdbb932?pvs=4">การตกแต่งภาพเบื้องต้นด้วย Photopea</a></li>
-    <li><a href="https://pisut-net.notion.site/Design-a-Poster-using-PowerPoint-b93e114edb624916899d6bcb8368f9e6?pvs=4">การออกแบบโปสเตอร์ด้วย PowerPoint</a></li>
-    <li><a href="https://pisut-net.notion.site/Design-a-Logo-with-Inkscape-421ce6be2ce44eaa9403c616e30ff9d7?pvs=4">การออกแบบโลโก้ด้วย Inkscape</a></li>
-    <li><a href="https://pisut-net.notion.site/Davinci-Resolve-18-08e2beb2c82345c8b30e23ce40709d54?pvs=4">การตัดต่อวิดีโอเบื้องต้นด้วย Davinci Resolve</a></li>
-</ul>
+<head>
+    <title>pisut.net</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600&display=swap">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Noto Sans Thai", sans-serif;
+            font-weight: 300
+        }
+
+        body {
+            font-size: 18px
+        }
+
+        h1,
+        h2 {
+            font-weight: 200
+        }
+
+        .w3-dark-grey {
+            color: #fff !important;
+            background-color: #222 !important
+        }
+
+        .w3-dark-teal {
+            color: #fff !important;
+            background-color: #066 !important
+        }
+
+        .w3-text-teal {
+            color: #099 !important
+        }
+
+        .w3-half img {
+            margin-bottom: -6px;
+            margin-top: 16px;
+            opacity: 0.8;
+            cursor: pointer
+        }
+
+        .w3-half img:hover {
+            opacity: 1
+        }
+    </style>
+</head>
+
+<body class="w3-dark-grey">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-dark-teal w3-collapse w3-top w3-large w3-padding"
+        style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+            style="width:100%;font-size:22px; font-weight:100">close menu</a>
+        <div class="w3-container">
+            <h3 class="w3-padding-64">pisut.net</h3>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+            <a href="#Classes" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Classes</a>
+            <a href="#Training" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Training</a>
+            <a href="#Publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+        <span>pisut.net</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+        id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" style="margin-top:80px" id="Classes">
+            <h1 class="w3-xxxlarge">Pisut Wisessing <br><b>พิศุทธิ์ วิเศษสิงห์</b></h1>
+            <p class="w3-text-teal"><b>e-mail: pisut.wi</b><span class="w3-text-small">&#8856;</span><b>ku.th</b></p>
+            <p>Department of Computer Science, Faculty of Science <br>Kasetsart University,
+                Thailand<br><b>ภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ <br>มหาวิทยาลัยเกษตรศาสตร์</b></p>
+        </div>
+
+        <!-- Classes -->
+        <div class="w3-container" id="Classes" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Classes</b></h1>
+            <hr style="width:50px;border:5px solid #099" class="w3-round">
+
+            <!-- Class Grid -->
+            <div class="w3-row-padding w3-grayscale">
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <h3><a href="https://pisut-net.notion.site/VFX-66-1-01418382-0c4abfc2bd714143979755fdf8e67daf"
+                                    target="_blank">Visual Effects (VFX)</a><br>&nbsp</h3>
+                            <p>66-1-01418382<br>วิชวลอิเฟกส์<br>&nbsp<br>&nbsp</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <h3><a href="https://pisut-net.notion.site/XR-66-1-01418383-34703d8f7bcd4a9498f7b072ad940f42"
+                                    target="_blank">Extended Reality (XR)</a><br>&nbsp</h3>
+                            <p>66-1-01418383<br>ควมเป็นจริงขยาย<br>&nbsp<br>&nbsp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <h3><a href="https://pisut-net.notion.site/PySTAT-66-1-01422422-f4c8c68c0852463f9c3e4f5ab579dcd1"
+                                    target="_blank">Programming for Statistical Data Analysis</a></h3>
+                            <p>66-1-01422422<br>การโปรแกรมคอมพิวเตอร์สำหรับการวิเคราะห์ข้อมูลสถิติ<br>&nbsp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Photo grid (modal) >
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div -->
+
+        <!-- Modal for full size images on click >
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div -->
+
+        <!-- Training -->
+        <div class="w3-container" id="Training" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Training</b></h1>
+            <hr style="width:50px;border:5px solid #099" class="w3-round">
+            <ul>
+                <li><a href="https://pisut-net.notion.site/Photopea-e99e55bed6644cf9b188856dafdbb932?pvs=4">การตกแต่งภาพเบื้องต้นด้วย
+                        Photopea</a> <br>Edit a photo with Photopea</li>
+                <li><a
+                        href="https://pisut-net.notion.site/Design-a-Poster-using-PowerPoint-b93e114edb624916899d6bcb8368f9e6?pvs=4">การออกแบบโปสเตอร์ด้วย
+                        PowerPoint</a> <br>Design a poster with PowerPoint</li>
+                <li><a
+                        href="https://pisut-net.notion.site/Design-a-Logo-with-Inkscape-421ce6be2ce44eaa9403c616e30ff9d7?pvs=4">การออกแบบโลโก้ด้วย
+                        Inkscape</a> <br>Design a logo with Inkscape</li>
+                <li><a href="https://pisut-net.notion.site/Davinci-Resolve-18-08e2beb2c82345c8b30e23ce40709d54?pvs=4">การตัดต่อวิดีโอเบื้องต้นด้วย
+                        Davinci Resolve</a> <br>Edit a video with Davinci Resolve</li>
+            </ul>
+        </div>
+
+        <!-- Publications -->
+        <div class="w3-container" id="Publications" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Publications</b></h1>
+            <hr style="width:50px;border:5px solid #099" class="w3-round">
+            <div class="w3-row-padding w3-grayscale">
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p><a href="https://scholar.google.com/citations?user=vdDbFsYAAAAJ" target="_blank">Google
+                                    Scholar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p><a href="https://www.scopus.com/authid/detail.uri?authorId=57193241507"
+                                    target="_blank">Scopus</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Contact</b></h1>
+            <hr style="width:50px;border:5px solid #099" class="w3-round">
+            <div class="w3-small w3-row-padding w3-grayscale">
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-container">
+                        <p><b>Department of Computer Science, Faculty of Science <br>
+                                Kasetsart University</b> <br>
+                            SC45 Buliding, 7th floor <br>
+                            50 Ngamwongwan Road, Lat Yao, Chatuchak, Bangkok 10900, THAILAND</p>
+                    </div>
+                </div>
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-container">
+                        <p><b>ภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ <br>
+                                มหาวิทยาลัยเกษตรศาสตร์</b><br>
+                            อาคารวิทยาศาสตร์กายภาพ 45 ปี ชั้น 7 <br>
+                            เลขที่ 50 ถนนงามวงศ์วาน เขตจตุจักร กรุงเทพฯ 10900</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- End page content -->
+    </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS"
+                target="_blank" class="w3-hover-opacity">w3.css</a></p>
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
+
 </body>
+
 </html>
