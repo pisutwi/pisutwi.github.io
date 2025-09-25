@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <title>pisut.net</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600&display=swap">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Noto Sans Thai", sans-serif;
+            font-weight: 300
+        }
+
+        body {
+            font-size: 18px
+        }
+
+        h1,
+        h2 {
+            font-weight: 200
+        }
+
+        .w3-dark-grey {
+            color: #fff !important;
+            background-color: #222 !important
+        }
+
+        .w3-dark-teal {
+            color: #fff !important;
+            background-color: #800000 !important /* maroon */
+        }
+
+        .w3-text-teal {
+            color: #A52A2A !important /* light-maroon */
+        }
+
+        .w3-half img {
+            margin-bottom: -6px;
+            margin-top: 16px;
+            opacity: 0.8;
+            cursor: pointer
+        }
+
+        .w3-half img:hover {
+            opacity: 1
+        }
+    </style>
+</head>
+
+<body class="w3-dark-grey">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-dark-teal w3-collapse w3-top w3-large w3-padding"
+        style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+            style="width:100%;font-size:22px; font-weight:100">close menu</a>
+        <div class="w3-container">
+            <h3 class="w3-padding-64">pisut.net</h3>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+            <a href="#Research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
+            <a href="#Publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+            <a href="#CV" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">CV</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-dark-teal w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-dark-teal w3-margin-right" onclick="w3_open()">☰</a>
+        <span>pisut.net</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+        id="myOverlay"></div>
+
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" style="margin-top:80px" id="Classes">
+            <h1 class="w3-xxlarge"><b>Pisut Wisessing</b> <br>พิศุทธิ์ วิเศษสิงห์</h1>
+            <p class="w3-text-teal"><b>pisut</b><span class="w3-text-small">&#8856;</span><b>cmkl.ac.th</b></p>
+            <div class="w3-row-padding">
+                    <div class="w3-container">
+                        <p>
+                            Assistant Professor of Creative Technologies <br>
+                            <b>M.S. in Technology and Creative Innovation Program <sup><a href="https://tci.cmkl.ac.th"
+                                target="_blank">&#8599;</a></sup></b> <br>
+                            <span class="w3-opacity"> CMKL University <br>
+                                Thailand</span>
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <!-- Research -->
+        <div class="w3-container" id="Research" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Research Projects</b></h1>
+            <hr style="width:50px;border:5px solid #A52A2A" class="w3-round">
+            <ul>
+                <li><a href="https://github.com/pisutwi/pisutwi.github.io/tree/main/sap2024" target="_blank">Blinded by the light: Does portrait lighting design affect perception of realistic virtual humans?</a></li>
+            </ul>
+        </div>
+
+        <!-- Publications -->
+        <div class="w3-container" id="Publications" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Publications</b></h1>
+            <hr style="width:50px;border:5px solid #A52A2A" class="w3-round">
+            <div class="w3-row-padding">
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p><a href="https://scholar.google.com/citations?user=vdDbFsYAAAAJ" target="_blank">Google
+                                    Scholar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p><a href="https://orcid.org/0009-0006-1936-4594"
+                                    target="_blank">ORCID</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CV -->
+        <div class="w3-container" id="CV" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>CV</b></h1>
+            <hr style="width:50px;border:5px solid #A52A2A" class="w3-round">
+
+            <h3 class="w3-xlarge">Industry Experience</h3>
+            <!-- Work Grid -->
+            <div class="w3-row-padding">
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>2021 - 2022 <br>
+                                <b>Effects Technical Assistant</b> <br>
+                                <span class="w3-opacity">Skydance Animation, Spain</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>2014 - 2015 <br>
+                                <b>Lead Effects Artist</b> <br>
+                                <span class="w3-opacity">Brown Bag Films, Ireland</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>2012 - 2013 <br>
+                                <b>Effects Developer</b> <br>
+                                <span class="w3-opacity">DreamWorks Unit—Technicolor, India</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="w3-xlarge">Education</h3>
+            <!-- Education Grid -->
+            <div class="w3-row-padding">
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>
+                                <b>PhD in Computer Science</b><br>
+                                <span class="w3-opacity">Trinity College Dublin, Ireland</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>
+                                <b>MFA in Digital Production Arts</b><br>
+                                <span class="w3-opacity">Clemson University, USA</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-black">
+                        <div class="w3-container">
+                            <p>
+                                <b>BA in Physics and Mathematics</b><br>
+                                <span class="w3-opacity">Cornell University, USA</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Contact -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+            <h1 class="w3-xxlarge w3-text-teal"><b>Contact</b></h1>
+            <hr style="width:50px;border:5px solid #A52A2A" class="w3-round">
+            <div class="w3-medium w3-row-padding">
+                    <div class="w3-container">
+                        <p>
+                            CMKL University <sup><a href="https://www.cmkl.ac.th"
+                                    target="_blank">&#8599;</a></sup> <br>
+                            <span class="w3-opacity">1 Soi Chalongkrung 1 Alley <br>
+                                Lat Krabang, Bangkok 10520 <br>
+                                Thailand</span>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- End page content -->
+    </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS"
+                target="_blank" class="w3-hover-opacity">w3.css</a></p>
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
+
+</body>
+
+</html>
